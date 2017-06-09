@@ -27,7 +27,6 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
 
 <body>
@@ -141,7 +140,7 @@
                             <div class="clearfix"></div>
                             <h2 class="section-heading"><%=clientList[i].firstName%>&nbsp;<%=clientList[i].lastName%></h2>
                             <p class="lead"><%=clientList[i].email %></br><%= clientList[i].phone %></p>
-                            <button id="editButton" type="submit" name="action" value="Edit" class="btn btn-warning btn-lg"><span class="glyphicon glyphicon-pencil" onclick="function () {document.getElementById('ID<%= clientList[i].id %>').focus();}"></span></button>
+                            <button id="editButton" type="submit" name="action" value="Edit" class="btn btn-warning btn-lg"><span class="glyphicon glyphicon-pencil").focus();}"></span></button>
                             <button type="submit" name="action" value="Delete" class="btn btn-danger btn-lg"><span class="glyphicon glyphicon-trash"></span></button>
                         </div>
                     <%} %>
@@ -201,7 +200,6 @@
                             <a href="#contact">Contact</a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
                 </div>
             </div>
         </div>
@@ -213,6 +211,7 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
+    
 </body>
 
 </html>

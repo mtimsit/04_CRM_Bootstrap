@@ -153,13 +153,13 @@ app.post("/action", function (req, res) {
       break;
     
     case "DELETE":
-      clientId = req.body.id;
+      clientId = "";
       action = "DELETE";
       deleteClient(req.body.id);
       break;
     
     case "ADD":
-      clientId = req.body.id;
+      clientId = "";
       action = "ADD";
       addClient(req.body.addId,req.body.addFirstName,req.body.addLastName,req.body.addEmail,req.body.addPhone,req.body.addImage);
       break;
